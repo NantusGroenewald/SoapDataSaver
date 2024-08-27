@@ -8,11 +8,11 @@ namespace DataAccess.Interfaces
 {
     public interface IRepository<TEntity>: IDisposable
     {
-        IEnumerable<TEntity> GetAll();
-        IEnumerable<TEntity> Get(int id);
+        IQueryable<TEntity> GetAll();
+        TEntity Get(int id);
         void Insert(TEntity entity);
         void Update(TEntity entity);
-        void Delete(TEntity entity);
+        void Delete(int id);
         void Save(); 
     }
 }
