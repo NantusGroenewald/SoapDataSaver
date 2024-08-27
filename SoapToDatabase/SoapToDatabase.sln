@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapService", "SoapService\SoapService.csproj", "{B6915736-A390-4CF5-A13E-5F689BC9F3D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{A169AD7C-0CFD-4D3D-B415-07DAC46E0CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{07B308B2-AD8D-40E5-BFC4-BA075D213D97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B6915736-A390-4CF5-A13E-5F689BC9F3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6915736-A390-4CF5-A13E-5F689BC9F3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6915736-A390-4CF5-A13E-5F689BC9F3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A169AD7C-0CFD-4D3D-B415-07DAC46E0CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A169AD7C-0CFD-4D3D-B415-07DAC46E0CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A169AD7C-0CFD-4D3D-B415-07DAC46E0CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A169AD7C-0CFD-4D3D-B415-07DAC46E0CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B308B2-AD8D-40E5-BFC4-BA075D213D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B308B2-AD8D-40E5-BFC4-BA075D213D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B308B2-AD8D-40E5-BFC4-BA075D213D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B308B2-AD8D-40E5-BFC4-BA075D213D97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
